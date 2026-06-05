@@ -5,9 +5,17 @@ junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 lifecycleRuntimeKtx = "2.6.1"
+androidxLifecycle = "2.8.1"
 activityCompose = "1.8.0"
 kotlin = "2.2.10"
 composeBom = "2026.02.01"
+
+# Add here
+composeRemote = "1.0.0-alpha12"
+firebaseStorage = "21.0.0"
+remoteMaterial3 = "1.0.0-alpha04"
+coil = "2.6.0"
+googleServices = "4.4.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -18,6 +26,7 @@ androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecyc
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
 androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidxLifecycle" }
 androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
@@ -25,7 +34,22 @@ androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-
 androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
 
+# Declare the artifact here
+remote-core = { group = "androidx.compose.remote", name = "remote-core", version.ref = "composeRemote" }
+remote-creation-compose = { group = "androidx.compose.remote", name = "remote-creation-compose", version.ref = "composeRemote" }
+remote-creation-android = { group = "androidx.compose.remote", name = "remote-creation-android", version.ref = "composeRemote" }
+
+remote-player-core = { group = "androidx.compose.remote", name = "remote-player-core", version.ref = "composeRemote" }
+remote-player-view = { group = "androidx.compose.remote", name = "remote-player-view", version.ref = "composeRemote" }
+androidx-remote-material3 = { group = "androidx.wear.compose.remote", name = "remote-material3", version.ref = "remoteMaterial3" }
+
+
+firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage-ktx", version.ref = "firebaseStorage" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
 
