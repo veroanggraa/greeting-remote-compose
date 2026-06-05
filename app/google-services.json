@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "879672712015",
+    "project_id": "android-exploration-ae518",
+    "storage_bucket": "android-exploration-ae518.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879672712015:android:7749a526e6b092d2bd833a",
+        "android_client_info": {
+          "package_name": "com.veroanggra.greetingremotecompose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcAi2CawgUbrz1cHUU6Fqa-R6J8KHoVbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
