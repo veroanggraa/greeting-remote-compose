@@ -65,3 +65,16 @@ service firebase.storage {
     }
   }
 }
+```
+...
+## 📖 Associated Article
+For a comprehensive architectural breakdown, deep-dive component analysis, and detailed implementation step-by-steps, read the complete publication:
+🔗 **[Conjuring Dynamic UI and Widgets with Remote Compose](https://medium.com/@veroanggra/conjuring-dynamic-ui-and-widgets-with-remote-compose-c80233211e2a)**
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+
